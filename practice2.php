@@ -24,7 +24,7 @@ switch ($name){
 
 /*for文を使って、1から10000までの合計の値を表示してください。*/
 $total = 0;
-for($i = 1;$i <= 1000;$i ++){
+for($i = 1;$i <= 10000;$i ++){
  $total += $i;
 }
 echo $total; ".\n";
@@ -44,12 +44,12 @@ $start = 1;
 $end = 100;
 
 for($i = $start; $i <= $end; $i++){
-if($i %5 == 0){
-    echo $i;
-    echo "\n";
-}
+    if($i %5 == 0){
+        echo $i;
+        echo "\n";
+    }
 }
 
   // 5で割り切れたら{}内を実行する
  
-  
+    
